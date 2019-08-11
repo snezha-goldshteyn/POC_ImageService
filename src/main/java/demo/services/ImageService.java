@@ -17,12 +17,13 @@ import java.util.stream.Collectors;
 @Service
 public class ImageService implements IImageService {
     String [] imagePaths = {
-            "/Users/annaluck/Desktop/ProjectSnezha/image-service/src/main/java/com/image/imageservice/services/1.jpg",
-            "/Users/annaluck/Desktop/ProjectSnezha/image-service/src/main/java/com/image/imageservice/services/2.jpg",
-            "/Users/annaluck/Desktop/ProjectSnezha/image-service/src/main/java/com/image/imageservice/services/3.jpg",
-            "/Users/annaluck/Desktop/ProjectSnezha/image-service/src/main/java/com/image/imageservice/services/4.jpg",
-            "/Users/annaluck/Desktop/ProjectSnezha/image-service/src/main/java/com/image/imageservice/services/5.jpg",
-            "/Users/annaluck/Desktop/ProjectSnezha/image-service/src/main/java/com/image/imageservice/services/6.jpg"
+            "/Users/annaluck/Desktop/ProjectSnezha/imageservice/src/main/java/demo/services/1.jpg",
+            "/Users/annaluck/Desktop/ProjectSnezha/imageservice/src/main/java/demo/services/2.jpg",
+            "/Users/annaluck/Desktop/ProjectSnezha/imageservice/src/main/java/demo/services/3.jpg",
+            "/Users/annaluck/Desktop/ProjectSnezha/imageservice/src/main/java/demo/services/4.jpeg",
+            "/Users/annaluck/Desktop/ProjectSnezha/imageservice/src/main/java/demo/services/5.jpg",
+            "/Users/annaluck/Desktop/ProjectSnezha/imageservice/src/main/java/demo/services/6.jpg",
+
     };
 
     @Autowired
